@@ -1,6 +1,6 @@
 
 :root{
-    --salmon: #EF9071;
+    --salmon: #EF9D71;
     --black: #000;
     --white: #fff;
     --cyan: #AEDEE0;
@@ -51,3 +51,7 @@ body[theme="white"]{
 body[theme="white"].section{
     color: var(--black);
 } 
+
+body{
+    transition: background-color ease-out .5s;
+}
